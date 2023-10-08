@@ -1,0 +1,154 @@
+body{
+ background-color: black;
+ color: aliceblue;
+}
+main section small{
+    color: grey;
+    padding-left: 96px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: rgba(128, 128, 128, 0.568);
+    border-width: 0px;
+    border-radius: 8px;
+    color: white;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  ::-ms-input-placeholder {
+    color: rgb(255, 255, 255);
+  }
+ 
+#small{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:220px;
+}  
+#Signin{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 270px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: rgba(9, 56, 131, 0.968);
+    border-width: 0px;
+    border-radius: 20px;
+    color: white;   
+}
+#Signingoogle{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 270px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: rgba(253, 254, 254, 0.968);
+    border-width: 0px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);  
+}
+main section p {
+    color: rgb(246, 243, 243);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:80px;
+    padding-top: 10px;
+}
+main section p span a{
+    color: rgb(61, 28, 211);
+}
+
+@media screen and (min-width: 600px) {
+    /* CSS rules for small screens (e.g., smartphones) */
+    header h3 {
+        padding-left: 20px !important;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    main section h3{
+        padding-left: 500px !important;
+        font-size: 24px;
+    }
+    main section small{
+        color: grey;
+        padding-left: 610px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    input{
+        margin-left: 520px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 350px;
+        height: 50px;
+        padding-left: 15px;
+        background-color: rgba(128, 128, 128, 0.568);
+        border-width: 0px;
+        border-radius: 8px;
+        color: white;
+    }
+    ::placeholder {
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      ::-ms-input-placeholder {
+        color: rgb(255, 255, 255);
+      }
+     
+    #small{
+        color: grey;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left:780px;
+        cursor:pointer;
+    }  
+    #Signin{
+        margin-left: 530px;
+        margin-top: 20px;
+        width: 350px;
+        height: 50px;
+        padding-left: 15px;
+        background-color: rgba(9, 56, 131, 0.968);
+        border-width: 0px;
+        border-radius: 20px;
+        color: white; 
+        transition: 0.5s;  
+    }
+    #Signin:hover{
+        background-color: rgba(0, 149, 255, 0.601);
+    }
+    #Signingoogle{
+        margin-left: 530px;
+        margin-top: 20px;
+        width: 350px;
+        height: 50px;
+        padding-left: 15px;
+        background-color: rgba(253, 254, 254, 0.968);
+        border-width: 0px;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);  
+        transition: 0.5s;  
+    }
+    #Signingoogle:hover{
+        background-color: rgba(166, 169, 171, 0.601);
+        color: aliceblue;
+    }
+    main section p {
+        color: rgb(246, 243, 243);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left:620px;
+        padding-top: 10px;
+    }
+    main section p span a{
+        color: rgb(61, 28, 211);
+    }
+    #four{
+        padding-top: 20px;
+    } 
+}
